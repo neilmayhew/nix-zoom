@@ -25,7 +25,7 @@ in
     name = "zoom-${version}";
 
     src = fetchurl {
-      url = "https://zoom.us/client/latest/zoom_${version}_amd64.deb";
+      url = "https://d11yldzmag5yn.cloudfront.net/prod/${version}/zoom_${version}_amd64.deb";
       sha256 = "0dgy9gdh9z42v8im465bl01dmyyshrd3b2h4jnqcf4zaarzyd6sz";
     };
 
