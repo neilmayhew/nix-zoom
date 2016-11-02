@@ -10,7 +10,7 @@
   xkeyboard_config }:
 
 let
-  version = "2.0.57232.0713";
+  version = "2.0.70790.1031";
 
   librarypath = stdenv.lib.makeLibraryPath [
     stdenv.cc.cc
@@ -25,8 +25,8 @@ in
     name = "zoom-${version}";
 
     src = fetchurl {
-      url = "https://d11yldzmag5yn.cloudfront.net/prod/${version}/zoom_${version}_amd64.deb";
-      sha256 = "0dgy9gdh9z42v8im465bl01dmyyshrd3b2h4jnqcf4zaarzyd6sz";
+      url = "https://d11yldzmag5yn.cloudfront.net/prod/${version}/zoom_amd64.deb";
+      sha256 = "14af8gqngwwbvlzi0q6xa9xyiwa7kg0wp7fqsz80s6hgvqvplqa5";
     };
 
     phases = "installPhase";
